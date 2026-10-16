@@ -1,4 +1,4 @@
-.info-card { display: flex; gap: 1.15rem; padding: 1.7rem; background: #fff; border: 1px solid #eee7f0; border-radius: 1.25rem; box-shadow: 0 14px 35px rgba(78,38,84,.08); border-top: 4px solid #773276; }
+.info-card { display: flex; gap: 1.15rem; padding: 1.7rem; background: linear-gradient(145deg, #fff, #fbf5ff); border: 1px solid #eee0f7; border-radius: 1.25rem; box-shadow: 0 14px 35px rgba(78,38,84,.1); border-top: 4px solid #773276; }
 .accent-blue { border-top-color: #1499d1; } .accent-pink { border-top-color: #e88cae; }
 .card-icon { flex: 0 0 2.8rem; height: 2.8rem; display: grid; place-items: center; border-radius: 50%; background: #f0e8fa; color: #773276; font-size: 1.4rem; }
 .card-icon svg { width: 1.35rem; height: 1.35rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
