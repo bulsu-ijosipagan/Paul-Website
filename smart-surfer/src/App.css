@@ -1,0 +1,8 @@
+@import './components/Header.css';
+@import './components/Hero.css';
+@import './components/InfoCard.css';
+@import './pages/Pages.css';
+@import './components/Footer.css';
+
+.app-shell { min-height: 100vh; overflow: hidden; }
+main { min-height: calc(100vh - 78px); }

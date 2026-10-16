@@ -1,0 +1,8 @@
+.site-header { height: 78px; padding: 0 clamp(1.2rem, 5vw, 5rem); display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 10; background: #201b21; color: #fff; }
+.brand { border: 0; background: transparent; color: inherit; display: flex; align-items: center; gap: .75rem; font-size: 1.22rem; }
+.brand-logo { width: 2.35rem; height: 2.35rem; object-fit: cover; border-radius: 50%; }
+.main-nav { display: flex; align-items: center; gap: clamp(1rem, 3vw, 3rem); margin-left: auto; }
+.nav-link { color: #ded8e0; border: 0; border-bottom: 2px solid transparent; background: transparent; padding: .55rem 0; font-size: .95rem; }
+.nav-link:hover, .nav-link.active { color: #fff; border-bottom-color: #65c9e9; }
+.header-shield { color: #eee; font-size: 1.8rem; transform: rotate(-20deg); }
+@media (max-width: 640px) { .site-header { height: auto; min-height: 76px; flex-wrap: wrap; padding-block: 1rem; gap: .8rem; } .main-nav { order: 3; width: 100%; justify-content: space-between; gap: .5rem; } .nav-link { font-size: .8rem; } }
