@@ -12,7 +12,7 @@ import './Pages.css'
 function ContentPage() {
   return (
     <>
-      <Hero eyebrow="Smart Surfer" title="Learn and Stay Safe" subtitle="Knowledge is one of the strongest tools for protecting yourself and others." compact image={contentHeroImage} />
+      <Hero title="Learn and Stay Safe" subtitle="Knowledge is one of the strongest tools for protecting yourself and others." compact image={contentHeroImage} />
       <section className="page-section content-intro">
         <div className="card-grid two-columns">
           <InfoCard icon="◉" title="Child Sexual Abuse and Exploitation Materials (CSAEM)" accent="purple">
