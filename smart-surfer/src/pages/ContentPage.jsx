@@ -16,10 +16,10 @@ function ContentPage() {
       <section className="page-section content-intro">
         <div className="card-grid two-columns">
           <InfoCard icon="◉" title="Child Sexual Abuse and Exploitation Materials (CSAEM)" accent="purple">
-            <p>refers to any visual, audio, or written depiction—such as photographs, videos, audio recordings, or computer-generated imagery—that shows or describes minors (individuals under the age of majority or age of consent) engaged in sexual acts, or displays the sexual organs of minors for a sexual purpose.</p>
+            <p>Under Republic Act No. 11930, CSAEM is defined as any visual, audio, or written material that shows a child involved in actual or simulated sexual acts, or highlights a child&apos;s sexual body parts for exploitative purposes.</p>
           </InfoCard>
           <InfoCard icon="▣" title="Media Literacy" accent="blue">
-            <p>Media literacy is the ability to access, understand, analyze, evaluate, and create information from different types of media, such as television, newspapers, social media, websites, and videos.</p>
+            <p>Based on National Association for Media Literacy Education (n.d), it is the ability to efficiently comprehend the digital environment by analyzing, evaluating, and acting using all forms of media. It helps individuals think critically about the content and messages that they receive and produce. It enables them to understand the harm of different platforms, making them responsible when interacting with others.</p>
           </InfoCard>
         </div>
       </section>
@@ -44,6 +44,24 @@ function ContentPage() {
               <li>Report suspicious behavior and seek help from a trusted person.</li>
             </ul>
             <p><strong>Remember:</strong> Every child deserves protection and safety, both online and offline.</p>
+            <p><strong>References:</strong></p>
+            <ul className="reference-list">
+              <li>
+                <a href="https://ecpat.org/resource/factsheets-on-online-child-sexual-exploitation-ocse-manifestations-online-grooming/" target="_blank" rel="noreferrer">
+                  ECPAT International: Online Child Sexual Exploitation and Online Grooming
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/theissues/onlineenticement" target="_blank" rel="noreferrer">
+                  National Center for Missing &amp; Exploited Children: Online Enticement
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/theissues/sextortion" target="_blank" rel="noreferrer">
+                  National Center for Missing &amp; Exploited Children: Sextortion
+                </a>
+              </li>
+            </ul>
           </Accordion>
           <Accordion title="Online Grooming and Manipulation" image={onlineGroomingImage}>
             <p>Online grooming occurs when someone builds trust with a child to manipulate or sexually exploit them. It can begin with friendly conversations and gradually become secretive, controlling, or inappropriate.</p>
@@ -60,6 +78,29 @@ function ContentPage() {
               <li>Ask a trusted adult for help.</li>
             </ul>
             <p><strong>Remember:</strong> A trustworthy person respects your boundaries and never forces you to do something uncomfortable.</p>
+            <p><strong>References:</strong></p>
+            <ul className="reference-list">
+              <li>
+                <a href="https://ecpat.org/resource/factsheets-on-online-child-sexual-exploitation-ocse-manifestations-online-grooming/" target="_blank" rel="noreferrer">
+                  ECPAT International: Online Child Sexual Exploitation and Online Grooming
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/theissues/onlineenticement" target="_blank" rel="noreferrer">
+                  National Center for Missing &amp; Exploited Children: Online Enticement
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/theissues/sextortion" target="_blank" rel="noreferrer">
+                  National Center for Missing &amp; Exploited Children: Sextortion
+                </a>
+              </li>
+              <li>
+                <a href="https://www.esafety.gov.au/parents/issues-and-advice/grooming-or-unwanted-contact" target="_blank" rel="noreferrer">
+                  eSafety Commissioner: Grooming or Unwanted Contact
+                </a>
+              </li>
+            </ul>
           </Accordion>
           <Accordion title="Digital Privacy and Personal Information" image={digitalPrivacyImage} defaultOpen>
             <p>Digital privacy means protecting your personal information, accounts, photos, and online activities from misuse.</p>
@@ -73,6 +114,29 @@ function ContentPage() {
             <p><strong>Why It Matters:</strong></p>
             <p>Protecting your privacy helps prevent identity theft, blackmail, and other online risks.</p>
             <p><strong>Remember:</strong> Think before you post. Your personal information deserves protection.</p>
+            <p><strong>References:</strong></p>
+            <ul className="reference-list">
+              <li>
+                <a href="https://www.cisa.gov/sites/default/files/publications/Online-Privacy-Tip-Sheet-122019-508.pdf" target="_blank" rel="noreferrer">
+                  CISA: Online Privacy Tip Sheet
+                </a>
+              </li>
+              <li>
+                <a href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noreferrer">
+                  CISA: Secure Our World
+                </a>
+              </li>
+              <li>
+                <a href="https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers" target="_blank" rel="noreferrer">
+                  FTC: Protect Your Personal Information from Hackers and Scammers
+                </a>
+              </li>
+              <li>
+                <a href="https://consumer.ftc.gov/articles/creating-strong-passwords-and-other-ways-protect-your-accounts" target="_blank" rel="noreferrer">
+                  FTC: Creating Strong Passwords and Other Ways to Protect Your Accounts
+                </a>
+              </li>
+            </ul>
           </Accordion>
           <Accordion title="Critical Thinking and Fact-Checking" image={criticalThinkingImage}>
             <p>Media literacy helps us understand and evaluate information found online. Since not everything on the internet is true, we must think critically before believing or sharing content.</p>
@@ -90,6 +154,19 @@ function ContentPage() {
               <li>Think before sharing.</li>
             </ul>
             <p><strong>Remember:</strong> Don&apos;t believe everything you see online. Verify first, then share responsibly.</p>
+            <p><strong>References:</strong></p>
+            <ul className="reference-list">
+              <li>
+                <a href="https://www.ifla.org/news/how-to-spot-fake-news-ifla-in-the-post-truth-society/" target="_blank" rel="noreferrer">
+                  IFLA: How to Spot Fake News
+                </a>
+              </li>
+              <li>
+                <a href="https://unesdoc.unesco.org/ark:/48223/pf0000265552" target="_blank" rel="noreferrer">
+                  UNESCO: Journalism, Fake News and Disinformation
+                </a>
+              </li>
+            </ul>
           </Accordion>
           <Accordion title="Reporting and Responding to CSAEM" image={respondingToCsaemImage}>
             <p>Child Sexual Abuse and Exploitation Material (CSAEM) involves material depicting or documenting the sexual abuse or exploitation of children. Sharing this material can cause further harm to victims.</p>
@@ -104,6 +181,34 @@ function ContentPage() {
             <p><strong>Why Reporting Matters:</strong></p>
             <p>Reporting suspected CSAEM can help prevent further circulation and support efforts to protect children.</p>
             <p><strong>Remember:</strong> Stop the spread, report responsibly, and help protect children online.</p>
+            <p><strong>References:</strong></p>
+            <ul className="reference-list">
+              <li>
+                <a href="https://inhope.org/what-we-do/how-to-report" target="_blank" rel="noreferrer">
+                  INHOPE: How to Report
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/gethelpnow/cybertipline" target="_blank" rel="noreferrer">
+                  NCMEC: CyberTipline
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncmec.org/gethelpnow/exploitation-resources" target="_blank" rel="noreferrer">
+                  NCMEC: Exploitation Resources
+                </a>
+              </li>
+              <li>
+                <a href="https://www.unicef.org/media/reporting-guidelines" target="_blank" rel="noreferrer">
+                  UNICEF: Reporting Guidelines
+                </a>
+              </li>
+              <li>
+                <a href="https://iacvawc.gov.ph/report-abuse/" target="_blank" rel="noreferrer">
+                  IACVAWC: Report Abuse
+                </a>
+              </li>
+            </ul>
           </Accordion>
         </div>
       </section>

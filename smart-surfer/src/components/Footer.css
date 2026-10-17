@@ -4,6 +4,8 @@
 .site-footer > div > p, .site-footer > p { margin: .55rem 0 0; color: #b9aabd; font-size: .85rem; line-height: 1.8; }
 .site-footer a { color: #bdeaf5; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
+.facebook-link { display: inline-flex; align-items: center; gap: .45rem; }
+.facebook-link svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
 .footer-links { display: flex; justify-content: center; gap: 1.75rem; padding-top: .15rem; }
 .footer-links button { background: transparent; border: 0; color: #e6d5e9; font-size: .88rem; }
 .footer-links button:hover { color: #72d4ed; }

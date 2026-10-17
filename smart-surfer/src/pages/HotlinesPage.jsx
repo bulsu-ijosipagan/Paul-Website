@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import emergencyHeroImage from '../public/images/EmergenyHotlinesLogos/EmergencyHotline.jpg'
+import emergency911Logo from '../public/images/EmergenyHotlinesLogos/911 logo.png'
 import ecpatLogo from '../public/images/EmergenyHotlinesLogos/ecpatph.png'
 import makabataLogo from '../public/images/EmergenyHotlinesLogos/makabata.png'
 import wcpdLogo from '../public/images/EmergenyHotlinesLogos/womenandchildrenprotectiondesk.png'
@@ -74,7 +75,13 @@ function HotlinesPage() {
                 <div><dt>Rescue Hotline</dt><dd><a href="tel:09231988688">0923-198-8688</a></dd></div>
               </dl>
               <p>For concerns involving the abuse, exploitation, or safety of children in Barangay Muzon South, San Jose del Monte City, individuals may approach the Barangay Muzon South officials or the Barangay Child Protection Committee (BCPC) for assistance, reporting, and appropriate referral to the concerned authorities or child protection service providers.</p>
-              <p><strong>Emergency assistance:</strong> For situations involving immediate danger or an ongoing emergency, contact the appropriate emergency services or call 911.</p>
+            </div>
+          </article>
+          <article className="hotline-card emergency-card">
+            <img className="hotline-image" src={emergency911Logo} alt="Emergency 911 Philippines logo" />
+            <div>
+              <h2>Emergency 911 Philippines</h2>
+              <p><strong>Emergency assistance:</strong> For situations involving immediate danger or an ongoing emergency, contact the appropriate emergency services or call <a href="tel:911">911</a>.</p>
               <p><strong>Important:</strong> Do not download, save, forward, repost, or share suspected CSAEM. When reporting online material, use the appropriate reporting channel and provide only the information requested by the authorized reporting or support service.</p>
             </div>
           </article>
