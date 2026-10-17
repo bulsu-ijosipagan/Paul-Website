@@ -1,5 +1,6 @@
 .site-header { height: 78px; padding: 0 clamp(1.2rem, 5vw, 5rem); display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 10; background: linear-gradient(105deg, #24142f, #43205d 55%, #241b3d); color: #fff; }
 .brand { border: 0; background: transparent; color: inherit; display: flex; align-items: center; gap: .75rem; font-size: 1.22rem; }
+.brand-name { font-family: 'Horizon', Arial, sans-serif; }
 .brand-logo { width: 2.35rem; height: 2.35rem; object-fit: cover; border-radius: 50%; }
 .main-nav { display: flex; align-items: center; gap: clamp(1rem, 3vw, 3rem); margin-left: auto; }
 .nav-link { color: #ded8e0; border: 0; border-bottom: 2px solid transparent; background: transparent; padding: .55rem 0; font-size: .95rem; }

@@ -4,7 +4,7 @@ function Footer({ onNavigate }) {
   return (
     <footer className="site-footer">
       <div>
-        <strong>Smart Surfer</strong>
+        <strong className="footer-brand-name">Smart Surfer</strong>
         <p>Spot abuse. Stop abuse. Stay safer online.</p>
       </div>
       <div className="footer-contact">

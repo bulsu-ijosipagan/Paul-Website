@@ -12,7 +12,7 @@ function Header({ activePage, onNavigate }) {
     <header className="site-header">
       <button className="brand" onClick={() => onNavigate('home')} aria-label="Smart Surfer home">
         <img className="brand-logo" src={smartSurferLogo} alt="" />
-        <span>Smart Surfer</span>
+        <span className="brand-name">Smart Surfer</span>
       </button>
       <nav className="main-nav" aria-label="Primary navigation">
         {links.map(([id, label]) => (

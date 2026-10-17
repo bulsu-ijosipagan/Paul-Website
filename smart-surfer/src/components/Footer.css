@@ -1,5 +1,6 @@
-.site-footer { padding: 2rem max(1.25rem, 7vw) .75rem; display: grid; grid-template-columns: 1.1fr 1.5fr 1.45fr; align-items: start; gap: 1.25rem 3.5rem; background: linear-gradient(115deg, #24142f, #43205d 58%, #241b3d); color: #eadfea; }
+.site-footer { position: relative; z-index: 1; padding: 2rem max(1.25rem, 7vw) .75rem; display: grid; grid-template-columns: 1.1fr 1.5fr 1.45fr; align-items: start; gap: 1.25rem 3.5rem; background: linear-gradient(115deg, #24142f, #43205d 58%, #241b3d); color: #eadfea; }
 .site-footer strong { color: #fff; font-size: 1.05rem; }
+.footer-brand-name { font-family: 'Horizon', Arial, sans-serif; }
 .site-footer > div > p, .site-footer > p { margin: .55rem 0 0; color: #b9aabd; font-size: .85rem; line-height: 1.8; }
 .site-footer a { color: #bdeaf5; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
