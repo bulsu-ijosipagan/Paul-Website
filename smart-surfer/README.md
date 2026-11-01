@@ -1,4 +1,22 @@
-# React + Vite
+# Smart Surfer
+
+## Run locally
+
+Open a terminal in the `smart-surfer` folder, then run:
+
+```powershell
+cd smart-surfer
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite, usually `http://localhost:5173/`.
+
+Running `npm run dev` from the repository root will fail because the root
+folder does not contain a `package.json`; the website's `package.json` is in
+`smart-surfer`.
+
+## Development notes
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 

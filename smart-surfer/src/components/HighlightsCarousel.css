@@ -1,0 +1,88 @@
+.highlights-section {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+  padding: 2.5rem max(1.25rem, 4vw) 2rem;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  box-shadow: 0 14px 35px rgba(78, 38, 84, 0.1);
+}
+
+.highlights-section .section-heading {
+  margin-bottom: 1.5rem;
+}
+
+.highlights-carousel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.highlight-slide {
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: #f8f4fa;
+  aspect-ratio: 16 / 9;
+}
+
+.highlight-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.highlight-arrow {
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 0;
+  border-radius: 50%;
+  background: #6e3178;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.highlight-arrow:hover,
+.highlight-arrow:focus-visible {
+  background: #4e2357;
+}
+
+.highlight-dots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.25rem;
+}
+
+.highlight-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #d7bfdc;
+}
+
+.highlight-dot.active {
+  background: #6e3178;
+  transform: scale(1.25);
+}
+
+@media (max-width: 600px) {
+  .highlights-section {
+    margin-inline: 1.25rem;
+  }
+
+  .highlights-carousel {
+    gap: 0.5rem;
+  }
+
+  .highlight-arrow {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.6rem;
+  }
+}

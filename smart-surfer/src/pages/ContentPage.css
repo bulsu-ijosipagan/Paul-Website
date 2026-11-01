@@ -1,0 +1,47 @@
+.page-section { max-width: 1180px; margin: 0 auto; padding: clamp(4rem, 8vw, 7rem) max(1.25rem, 5vw); }
+.section-heading h2 { color: #6b2d6d; margin: 0 0 1rem; font: 600 clamp(2rem, 4vw, 3.2rem)/1.1 'Oswald', sans-serif; }
+.card-grid { display: grid; gap: 1.25rem; } .two-columns { grid-template-columns: repeat(2, 1fr); }
+.content-intro { max-width: 1400px; padding: 4rem max(1.25rem, 3vw) 0; } .content-intro .two-columns { align-items: stretch; gap: 1.5rem; } .page-section.topics-section { padding-top: 0; } .accordion-list { max-width: 920px; margin: auto; display: grid; gap: .8rem; }
+.law-section { max-width: 1180px; padding-top: 3rem; padding-bottom: 4rem; }
+.law-card { padding: clamp(1.5rem, 4vw, 3rem); color: #6f6071; line-height: 1.75; background: linear-gradient(145deg, #fff, #fbf5ff); border: 1px solid #eee0f7; border-radius: 1.25rem; box-shadow: 0 14px 35px rgba(78,38,84,.1); }
+.law-card .section-heading h2 { margin-bottom: 1.25rem; }
+.law-card h3 { margin: 2rem 0 .65rem; color: #65306b; font-size: 1.35rem; line-height: 1.25; text-transform: uppercase; }
+.law-card p { margin: 0 0 .9rem; }
+.law-card ul { margin: 0 0 1rem; padding-left: 1.5rem; }
+.law-definitions { display: grid; gap: 1rem; margin: 0 0 1rem; }
+.law-definitions div { padding: 1rem 1.2rem; border-left: 4px solid #1499d1; background: #f3fbfe; border-radius: 0 .75rem .75rem 0; }
+.law-definitions dt { color: #147cae; font-weight: 700; }
+.law-definitions dd { margin: .35rem 0 0; }
+.misconception-list { display: grid; gap: .8rem; }
+.misconception-list article { padding: 1rem 1.2rem; border: 1px solid #eee0f7; border-radius: .85rem; background: rgba(255,255,255,.7); }
+.misconception-list h4 { margin: 0 0 .45rem; color: #65306b; font-size: 1rem; line-height: 1.4; }
+.misconception-list p { margin: 0; }
+.law-reminder { margin-top: 2rem; padding: 1.25rem 1.5rem; border-radius: .9rem; background: #f0e8fa; color: #65306b; }
+.law-reminder h3 { margin-top: 0; }
+.law-reminder p:last-child { margin-bottom: 0; }
+.accordion { background: #fff; border: 1px solid #eadfec; border-radius: 1rem; overflow: hidden; } .accordion.is-open { box-shadow: 0 10px 30px rgba(73,36,75,.08); }
+.accordion-trigger { display: flex; align-items: center; gap: 1rem; min-height: 7.8rem; padding: .9rem 1.45rem .9rem .9rem; color: #65306b; font-weight: 700; }
+.accordion-trigger > span { flex: 1; }
+.accordion-image-button { flex: 0 0 6rem; padding: 0; border: 0; border-radius: .85rem; background: transparent; }
+.accordion-image { width: 6rem; height: 6rem; display: block; object-fit: cover; border-radius: .85rem; border: 2px solid #eee1f1; transition: transform .2s ease, border-color .2s ease; }
+.accordion-image-button:hover .accordion-image, .accordion-image-button:focus-visible .accordion-image { transform: scale(1.04); border-color: #773276; }
+.topic-open-button { flex: 0 0 auto; padding: .65rem .85rem; border: 0; border-radius: 999px; background: #f0e8fa; color: #6e3178; font-size: .78rem; font-weight: 700; }
+.topic-open-button:hover, .topic-open-button:focus-visible { background: #6e3178; color: #fff; }
+.modal-backdrop { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; overflow-y: auto; padding: 1.25rem; background: rgba(29, 19, 38, .68); }
+.topic-modal { position: relative; width: min(100%, 1080px); max-height: calc(100vh - 2.5rem); overflow-y: auto; margin: auto; padding: 2.5rem; border-radius: 1.25rem; background: #fff; box-shadow: 0 24px 70px rgba(20, 10, 30, .35); color: #705d70; line-height: 1.7; }
+.modal-close { position: absolute; top: .8rem; right: .9rem; width: 2rem; height: 2rem; border: 0; border-radius: 50%; background: #f0e8fa; color: #6e3178; font-size: 1.5rem; line-height: 1; }
+.modal-close:hover, .modal-close:focus-visible { background: #6e3178; color: #fff; }
+.modal-layout { display: grid; grid-template-columns: minmax(280px, 380px) 1fr; align-items: start; gap: 2.5rem; }
+.modal-image { width: 100%; aspect-ratio: 1; height: auto; display: block; object-fit: contain; align-self: center; border-radius: 1rem; border: 2px solid #eee1f1; background: #f8f4fa; }
+.topic-modal h3 { margin: 0 2rem 1.25rem 0; color: #65306b; font: 600 clamp(1.5rem, 3vw, 2.15rem)/1.15 'Oswald', sans-serif; }
+.modal-content p { margin: 0 0 .8rem; } .modal-content ul { margin: 0 0 1rem; padding-left: 1.4rem; } .modal-content strong { color: #65306b; } .reference-list a { color: #147cae; font-weight: 600; } .reference-list a:hover { color: #6e3178; }
+@media (max-width: 780px) {
+  .two-columns { grid-template-columns: 1fr; }
+  .accordion-trigger { padding-right: .8rem; }
+  .topic-open-button { padding-inline: .65rem; font-size: .7rem; }
+  .topic-modal { padding: 1.75rem 1.25rem 1.5rem; }
+  .modal-layout { grid-template-columns: 1fr; gap: 1.25rem; }
+  .modal-image { width: min(100%, 260px); height: auto; min-height: 0; aspect-ratio: 1; margin: 0 auto; }
+  .content-intro .info-card { min-height: 0; padding: 1.5rem; }
+  .content-intro .card-copy { font-size: .98rem; }
+}

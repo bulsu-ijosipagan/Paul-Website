@@ -1,23 +1,27 @@
-import './Header.css'
-import smartSurferLogo from '../public/images/SmartSurferLogo.png'
+import "./Header.css";
+import smartSurferLogo from "../public/images/SmartSurferLogo.png";
 
 function Header({ activePage, onNavigate }) {
   const links = [
-    ['home', 'Home'],
-    ['content', 'Content'],
-    ['hotlines', 'Emergency Hotlines'],
-  ]
+    ["home", "Home"],
+    ["content", "Content"],
+    ["hotlines", "Reporting Hotlines"],
+  ];
 
   return (
     <header className="site-header">
-      <button className="brand" onClick={() => onNavigate('home')} aria-label="Smart Surfer home">
+      <button
+        className="brand"
+        onClick={() => onNavigate("home")}
+        aria-label="Smart Surfer home"
+      >
         <img className="brand-logo" src={smartSurferLogo} alt="" />
         <span className="brand-name">Smart Surfer</span>
       </button>
       <nav className="main-nav" aria-label="Primary navigation">
         {links.map(([id, label]) => (
           <button
-            className={activePage === id ? 'nav-link active' : 'nav-link'}
+            className={activePage === id ? "nav-link active" : "nav-link"}
             key={id}
             onClick={() => onNavigate(id)}
           >
@@ -26,7 +30,7 @@ function Header({ activePage, onNavigate }) {
         ))}
       </nav>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
