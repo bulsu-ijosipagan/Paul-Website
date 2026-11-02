@@ -29,7 +29,9 @@ function Footer({ onNavigate }) {
         <strong>Address</strong>
         <p>San Jose Del Monte City,<br />Barangay Muzon South</p>
       </div>
-      <p className="copyright">An educational resource for safer digital spaces.</p>
+      <p className="copyright">
+        Est. 2026 · Designed and developed by Issei Jansenn O. Sipagan.
+      </p>
     </footer>
   )
 }
