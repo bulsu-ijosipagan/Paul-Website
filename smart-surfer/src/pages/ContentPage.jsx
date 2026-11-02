@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Accordion from "../components/Accordion";
 import InfoCard from "../components/InfoCard";
-import contentHeroImage from "../public/images/ChildImages/Childimage2.png";
+import contentHeroImage from "../public/images/Highlights/Highlights 14.jpg";
 import sexualExploitationImage from "../public/images/ContentLogos/SexualExploitation.png";
 import onlineGroomingImage from "../public/images/ContentLogos/OnlineGrooming.png";
 import digitalPrivacyImage from "../public/images/ContentLogos/DigitalPrivacy.png";
@@ -47,7 +47,10 @@ function ContentPage() {
           </InfoCard>
         </div>
       </section>
-      <section className="page-section law-section" aria-labelledby="ra-11930-heading">
+      <section
+        className="page-section law-section"
+        aria-labelledby="ra-11930-heading"
+      >
         <div className="law-card">
           <div className="section-heading">
             <p className="eyebrow">Know your rights</p>
@@ -56,8 +59,8 @@ function ContentPage() {
           <p>
             Ang Republic Act No. 11930, o Anti-OSAEC and Anti-CSAEM Act, ay
             batas na naglalayong protektahan ang mga bata laban sa seksuwal na
-            pang-aabuso at pagsasamantala sa pamamagitan ng internet at iba
-            pang teknolohiya.
+            pang-aabuso at pagsasamantala sa pamamagitan ng internet at iba pang
+            teknolohiya.
           </p>
 
           <h3>Purpose of the Law</h3>
@@ -92,8 +95,8 @@ function ContentPage() {
           <p>
             Ang OSAEC ay ang pang-aabuso o pagsasamantala sa bata gamit ang
             internet. Ang CSAEM naman ay mga larawan, video, audio, o iba pang
-            materyal na nagpapakita ng seksuwal na pang-aabuso o
-            pagsasamantala sa bata.
+            materyal na nagpapakita ng seksuwal na pang-aabuso o pagsasamantala
+            sa bata.
           </p>
           <p>
             Sa madaling salita: Ang OSAEC ay ang pang-aabuso, habang ang CSAEM
@@ -106,8 +109,8 @@ function ContentPage() {
             Ipinagbabawal ng batas ang pang-aabuso at pagsasamantala sa mga
             bata, paggawa at pagpapakalat ng mga larawan o video na nagpapakita
             nito, pagbebenta o pag-iingat ng mga ganitong materyal, at
-            panlilinlang sa mga bata online para sa seksuwal na layunin. Ang
-            mga lalabag ay maaaring makulong at pagmultahin.
+            panlilinlang sa mga bata online para sa seksuwal na layunin. Ang mga
+            lalabag ay maaaring makulong at pagmultahin.
           </p>
 
           <h3>Penalties under RA 11930</h3>
@@ -133,24 +136,29 @@ function ContentPage() {
           <h3>Examples of normalized misconceptions</h3>
           <div className="misconception-list">
             <article>
-              <h4>“Okay lang i-share ang CSAEM kung marami nang nag-share nito.”</h4>
+              <h4>
+                “Okay lang i-share ang CSAEM kung marami nang nag-share nito.”
+              </h4>
               <p>
                 <strong>Reality:</strong> Ipinagbabawal ang pagpapakalat ng
-                CSAEM sa ilalim ng RA 11930, kahit marami na ang nagbahagi
-                nito. Huwag itong i-share o i-repost. Iulat ito sa halip.
+                CSAEM sa ilalim ng RA 11930, kahit marami na ang nagbahagi nito.
+                Huwag itong i-share o i-repost. Iulat ito sa halip.
               </p>
             </article>
             <article>
               <h4>“Okay lang humingi ng malaswang larawan sa private chat.”</h4>
               <p>
                 <strong>Reality:</strong> Mali pa rin ang humingi o magkalat ng
-                mga larawang o bidyong nagpapakita ng seksuwal na pang-aabuso
-                sa mga bata, kahit sa private chat lamang. Ipinagbabawal ito ng
-                RA 11930.
+                mga larawang o bidyong nagpapakita ng seksuwal na pang-aabuso sa
+                mga bata, kahit sa private chat lamang. Ipinagbabawal ito ng RA
+                11930.
               </p>
             </article>
             <article>
-              <h4>“Jowa ko naman siya kaya hindi niya ikakalat ang private picture ko.”</h4>
+              <h4>
+                “Jowa ko naman siya kaya hindi niya ikakalat ang private picture
+                ko.”
+              </h4>
               <p>
                 <strong>Reality:</strong> Hindi garantiya ang pagmamahal at
                 tiwala na mananatiling pribado ang mga larawan. Kung menor de
@@ -163,12 +171,14 @@ function ContentPage() {
               <p>
                 <strong>Reality:</strong> Ipinagbabawal ng RA 11930 ang
                 pagtataglay ng CSAEM, kahit pansariling gamit lamang. Huwag
-                itong i-save o i-download. Sa halip, i-report ito sa platform
-                at sa kinauukulang awtoridad.
+                itong i-save o i-download. Sa halip, i-report ito sa platform at
+                sa kinauukulang awtoridad.
               </p>
             </article>
             <article>
-              <h4>“Okay lang i-post ang anak ko kahit may malaswang komento.”</h4>
+              <h4>
+                “Okay lang i-post ang anak ko kahit may malaswang komento.”
+              </h4>
               <p>
                 <strong>Reality:</strong> Bilang magulang, mahalagang
                 isaalang-alang ang privacy at kaligtasan ng anak sa bawat
@@ -189,12 +199,16 @@ function ContentPage() {
             <li>
               Protektahan ang pagkakakilanlan at pribadong impormasyon ng bata.
             </li>
-            <li>Huwag imbestigahan o komprontahin ang pinaghihinalaang salarin.</li>
+            <li>
+              Huwag imbestigahan o komprontahin ang pinaghihinalaang salarin.
+            </li>
           </ul>
 
           <div className="law-reminder">
             <h3>Remember</h3>
-            <p>Huwag magkalat. Huwag manahimik. Iulat at protektahan ang bata.</p>
+            <p>
+              Huwag magkalat. Huwag manahimik. Iulat at protektahan ang bata.
+            </p>
             <p>
               Para sa buong detalye, sumangguni sa Republic Act No. 11930 at sa
               mga opisyal na sanggunian.

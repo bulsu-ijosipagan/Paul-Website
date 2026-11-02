@@ -84,8 +84,7 @@ function HomePage({ onNavigate }) {
         <div>
           <p className="eyebrow">Need support?</p>
           <h2>
-            Kung may mali sa pakiramdam, sabihin sa isang taong
-            pinagkakatiwalaan mo.
+            May nakita o naranasang hindi tama? Huwag matakot humingi ng tulong.
           </h2>
         </div>
         <button className="light-button" onClick={() => onNavigate("hotlines")}>
