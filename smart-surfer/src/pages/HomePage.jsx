@@ -65,23 +65,28 @@ function HomePage({ onNavigate }) {
         </div>
         <div className="card-grid three-columns">
           <InfoCard icon="lightbulb" title="Learn the signs" accent="purple">
-            Understanding common online risks makes it easier to notice when a
-            situation is unsafe.
+            Ang pag-unawa sa mga karaniwang panganib sa online ay nakatutulong
+            upang mas madaling matukoy kung may sitwasyong hindi ligtas.
           </InfoCard>
           <InfoCard icon="lock" title="Protect your privacy" accent="blue">
-            Small habits like strong passwords and careful sharing help keep
-            your personal life yours.
+            Ang mga simpleng gawi tulad ng paggamit ng matibay na password at
+            pagiging maingat sa pagbabahagi ng impormasyon ay nakatutulong upang
+            mapanatiling pribado at ligtas ang iyong personal na buhay.
           </InfoCard>
           <InfoCard icon="♡" title="Reach out for help" accent="pink">
-            You do not have to handle a worrying situation alone. Trusted adults
-            and hotlines can help.
+            Hindi mo kailangang harapin nang mag-isa ang isang nakababahalang
+            sitwasyon. Maaaring lumapit sa mga pinagkakatiwalaang tao at mga
+            hotline para humingi ng tulong.
           </InfoCard>
         </div>
       </section>
       <section className="callout-section">
         <div>
           <p className="eyebrow">Need support?</p>
-          <h2>If something feels wrong, tell someone you trust.</h2>
+          <h2>
+            Kung may mali sa pakiramdam, sabihin sa isang taong
+            pinagkakatiwalaan mo.
+          </h2>
         </div>
         <button className="light-button" onClick={() => onNavigate("hotlines")}>
           REPORTING HOTLINES <span>→</span>
