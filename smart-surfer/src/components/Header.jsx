@@ -1,7 +1,30 @@
+import { useEffect, useRef, useState } from "react";
 import "./Header.css";
 import smartSurferLogo from "../public/images/SmartSurferLogo.png";
 
 function Header({ activePage, onNavigate }) {
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY === 0) {
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY.current) {
+        setIsVisible(true);
+      } else if (currentScrollY < lastScrollY.current) {
+        setIsVisible(false);
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const links = [
     ["home", "Home"],
     ["content", "Content"],
@@ -9,7 +32,7 @@ function Header({ activePage, onNavigate }) {
   ];
 
   return (
-    <header className="site-header">
+    <header className={`site-header ${isVisible ? "is-visible" : "is-hidden"}`}>
       <button
         className="brand"
         onClick={() => onNavigate("home")}

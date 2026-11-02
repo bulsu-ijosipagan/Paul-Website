@@ -1,4 +1,5 @@
-.site-header { height: 78px; padding: 0 clamp(1.2rem, 5vw, 5rem); display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 10; background: linear-gradient(105deg, #24142f, #43205d 55%, #241b3d); color: #fff; }
+.site-header { height: 78px; padding: 0 clamp(1.2rem, 5vw, 5rem); display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: sticky; top: 0; z-index: 10; background: linear-gradient(105deg, #24142f, #43205d 55%, #241b3d); color: #fff; transition: transform .25s ease; }
+.site-header.is-hidden { transform: translateY(-100%); }
 .brand { border: 0; background: transparent; color: inherit; display: flex; align-items: center; gap: .75rem; font-size: 1.22rem; }
 .brand-name { font-family: 'Horizon', Arial, sans-serif; }
 .brand-logo { width: 2.35rem; height: 2.35rem; object-fit: cover; border-radius: 50%; }
