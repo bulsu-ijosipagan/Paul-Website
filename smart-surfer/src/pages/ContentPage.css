@@ -1,5 +1,6 @@
 .page-section { max-width: 1180px; margin: 0 auto; padding: clamp(4rem, 8vw, 7rem) max(1.25rem, 5vw); }
 .section-heading h2 { color: var(--color-secondary); margin: 0 0 1rem; font: 600 clamp(2rem, 4vw, 3.2rem)/1.1 'Oswald', sans-serif; }
+.topics-section .section-heading h2, .topics-section .section-heading .eyebrow { color: var(--color-neutral); }
 .card-grid { display: grid; gap: 1.25rem; } .two-columns { grid-template-columns: repeat(2, 1fr); }
 .content-intro { max-width: 1400px; padding: 4rem max(1.25rem, 3vw) 0; } .content-intro .two-columns { align-items: stretch; gap: 1.5rem; } .page-section.topics-section { padding-top: 0; } .accordion-list { max-width: 920px; margin: auto; display: grid; gap: .8rem; }
 .law-section { max-width: 1180px; padding-top: 3rem; padding-bottom: 4rem; }
