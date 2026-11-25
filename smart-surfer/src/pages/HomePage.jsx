@@ -10,7 +10,7 @@ function HomePage({ onNavigate }) {
   return (
     <>
       <Hero
-        title="CSAEMULAT"
+        title="CSAEMulat"
         subtitle="Mulat sa Panganib, Kaisa sa Pagprotekta"
         image={homeHeroImage}
       />

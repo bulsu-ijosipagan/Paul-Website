@@ -23,7 +23,7 @@ function Footer({ onNavigate }) {
             <span>CSAEMulat</span>
           </a>
         </p>
-        <p>Email Address: <a href="mailto:smartsurferofficial@gmail.com">smartsurferofficial@gmail.com</a></p>
+        <p>Email Address: <a href="mailto:csaemulat@gmail.com">csaemulat@gmail.com</a></p>
       </div>
       <div className="footer-address">
         <strong>Address</strong>

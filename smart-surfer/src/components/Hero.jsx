@@ -4,7 +4,7 @@ import heroImage from '../public/images/ChildImages/Childimage1.png'
 function Hero({ eyebrow, title, subtitle, compact = false, image = heroImage }) {
   return (
     <section
-      className={`hero ${compact ? 'hero-compact' : ''} ${title === 'CSAEMULAT' ? 'hero-csaemulat' : ''}`}
+      className={`hero ${compact ? 'hero-compact' : ''} ${title === 'CSAEMulat' ? 'hero-csaemulat' : ''}`}
       style={{ '--hero-image': `url(${image})` }}
     >
       <div className="hero-orb orb-one" />
