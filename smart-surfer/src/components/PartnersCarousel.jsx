@@ -55,7 +55,7 @@ const partners = [
     name: "BulSU Gender and Development Center",
     image: genderAndDevelopmentLogo,
     description:
-      "Nagtataguyod ng pantay na oportunidad sa edukasyon, anuman ang kasarian, at naghihikayat ng pagiging responsable sa lipunan. Kaakibat ito ng adbokasiya ng Smart Surfer na magpalawak ng kaalaman tungkol sa CSAEM at makatulong sa pagpigil sa seksuwal na pang-aabuso at pagsasamantala sa mga bata sa internet.",
+      "Nagtataguyod ng pantay na oportunidad sa edukasyon, anuman ang kasarian, at naghihikayat ng pagiging responsable sa lipunan. Kaakibat ito ng adbokasiya ng CSAEMulat na magpalawak ng kaalaman tungkol sa CSAEM at makatulong sa pagpigil sa seksuwal na pang-aabuso at pagsasamantala sa mga bata sa internet.",
   },
 ];
 

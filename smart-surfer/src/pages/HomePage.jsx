@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import InfoCard from "../components/InfoCard";
 import PartnersCarousel from "../components/PartnersCarousel";
 import HighlightsCarousel from "../components/HighlightsCarousel";
-import smartSurferLogo from "../public/images/SmartSurferLogo.png";
+import csaemLogo from "../public/images/CSAEMulatLogo.png";
 import homeHeroImage from "../public/images/ChildImages/1MAIN COVER.PNG";
 import "./HomePage.css";
 
@@ -10,22 +10,22 @@ function HomePage({ onNavigate }) {
   return (
     <>
       <Hero
-        title="SMART SURFER"
-        subtitle="Spot Abuse, Stop Abuse"
+        title="CSAEMULAT"
+        subtitle="Mulat sa Panganib, Kaisa sa Pagprotekta"
         image={homeHeroImage}
       />
       <section className="page-section intro-section">
         <div className="intro-art">
-          <img src={smartSurferLogo} alt="Smart Surfer logo" />
+          <img src={csaemLogo} alt="CSAEM logo" />
         </div>
         <div className="intro-copy">
-          <p className="eyebrow">Welcome to Smart Surfer</p>
+          <p className="eyebrow">Welcome to CSAEMulat</p>
           <h2>
-            <span className="horizon-text">What is</span>{" "}
-            <span className="horizon-text">Smart Surfer</span>?
+            <span className="oswald-text">What is</span>{" "}
+            <span className="oswald-text">CSAEMulat</span>?
           </h2>
           <p>
-            Ang Smart Surfer ay isang proyekto na naglalayong tulungan ang mga
+            Ang CSAEMulat ay isang proyekto na naglalayong tulungan ang mga
             young adults na maging mulat, makilala ang mga senyales ng
             pang-aabuso, at mas maprotektahan ang kanilang sarili habang
             gumagamit ng internet.

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Header.css";
-import smartSurferLogo from "../public/images/SmartSurferLogo.png";
+import csaemLogo from "../public/images/CSAEMulatLogo.png";
 
 function Header({ activePage, onNavigate }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -36,10 +36,10 @@ function Header({ activePage, onNavigate }) {
       <button
         className="brand"
         onClick={() => onNavigate("home")}
-        aria-label="Smart Surfer home"
+        aria-label="CSAEMulat home"
       >
-        <img className="brand-logo" src={smartSurferLogo} alt="" />
-        <span className="brand-name">Smart Surfer</span>
+        <img className="brand-logo" src={csaemLogo} alt="" />
+        <span className="brand-name">CSAEMulat</span>
       </button>
       <nav className="main-nav" aria-label="Primary navigation">
         {links.map(([id, label]) => (

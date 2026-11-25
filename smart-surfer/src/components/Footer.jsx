@@ -4,8 +4,8 @@ function Footer({ onNavigate }) {
   return (
     <footer className="site-footer">
       <div>
-        <strong className="footer-brand-name">Smart Surfer</strong>
-        <p>Spot abuse. Stop abuse. Stay safer online.</p>
+        <strong className="footer-brand-name">CSAEMulat</strong>
+        <p>Mulat sa Panganib, Kaisa sa Pagprotekta.</p>
       </div>
       <div className="footer-contact">
         <strong>Contact</strong>
@@ -15,12 +15,12 @@ function Footer({ onNavigate }) {
             href="https://www.facebook.com/share/1JQxi2Wmi6/"
             target="_blank"
             rel="noreferrer"
-            aria-label="Visit the Smart Surfer Facebook page"
+            aria-label="Visit the CSAEMulat Facebook page"
           >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M14 8h3V5h-3c-2.2 0-4 1.8-4 4v2H7v3h3v5h3v-5h3l.5-3H13V9c0-.6.4-1 1-1Z" />
             </svg>
-            <span>Smart Surfer</span>
+            <span>CSAEMulat</span>
           </a>
         </p>
         <p>Email Address: <a href="mailto:smartsurferofficial@gmail.com">smartsurferofficial@gmail.com</a></p>

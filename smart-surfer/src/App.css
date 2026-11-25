@@ -3,9 +3,9 @@
 @import './components/InfoCard.css';
 @import './components/Footer.css';
 
-.app-shell { min-height: 100vh; overflow-x: clip; position: relative; isolation: isolate; background: #321074; }
-.ambient-background { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: #321074; }
-.background-image { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; object-position: center; animation: background-wave 16s ease-in-out infinite; transform-origin: center; will-change: transform; }
+.app-shell { min-height: 100vh; overflow-x: clip; position: relative; isolation: isolate; background: var(--color-secondary); }
+.ambient-background { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: var(--color-secondary); }
+.background-image { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; object-position: center; filter: grayscale(1); opacity: .12; animation: background-wave 16s ease-in-out infinite; transform-origin: center; will-change: transform; }
 main { min-height: calc(100vh - 78px); position: relative; z-index: 2; }
 
 @keyframes background-wave {
